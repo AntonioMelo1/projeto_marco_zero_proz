@@ -1,0 +1,92 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Cor de fundo da página */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    background-color: #4285f4; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h2 {
+    margin: 0; /* Remover margens internas do título h2 no cabeçalho */
+}
+
+/* Estilos para o carrossel de imagens */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    text-align: center; /* Centraliza o conteúdo da barra de navegação */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Adiciona esta propriedade para evitar que a lista ocupe a largura total */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto dos links de navegação */
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 0 20px; /* Adiciona margens direita e esquerda ao conteúdo principal */
+}
+
+/* Estilos para as seções de texto */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Estilos para imagens dentro das seções */
+.foto {
+    display: block;
+    margin: 0 auto 10px; /* Centralizar a imagem e adicionar margem inferior */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
